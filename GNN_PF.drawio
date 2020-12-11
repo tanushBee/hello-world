@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T16:17:06.524Z" agent="5.0 (X11)" etag="K9fJki30OUxm1LwVhltR" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T16:22:29.893Z" agent="5.0 (X11)" etag="zTf2IcC4w4wsm1pqsffh" version="14.0.1" type="github">
   <diagram id="NX9X9Dx4tGmhcnGqsxjO" name="Page-1">
     <mxGraphModel dx="1221" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -177,7 +177,7 @@
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xKvRT-cBqtyTfY7rPIqp-73" target="xKvRT-cBqtyTfY7rPIqp-75">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xKvRT-cBqtyTfY7rPIqp-73" value="&lt;div&gt;Function that updates&lt;/div&gt;&lt;div&gt;graphs considering&lt;/div&gt;&lt;div&gt;predicted Vmag, Vang&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="xKvRT-cBqtyTfY7rPIqp-73" value="&lt;div&gt;Function that updates&lt;/div&gt;&lt;div&gt;graphs considering&lt;/div&gt;&lt;div&gt;predicted Vmag, Vang&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry y="920" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xKvRT-cBqtyTfY7rPIqp-75" target="xKvRT-cBqtyTfY7rPIqp-77">
@@ -218,7 +218,7 @@
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xKvRT-cBqtyTfY7rPIqp-89" target="xKvRT-cBqtyTfY7rPIqp-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xKvRT-cBqtyTfY7rPIqp-89" value="&lt;div&gt;Function that updates&lt;/div&gt;&lt;div&gt;graphs considering&lt;/div&gt;&lt;div&gt;predicted Vmag, Vang&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="xKvRT-cBqtyTfY7rPIqp-89" value="&lt;div&gt;Function that updates&lt;/div&gt;&lt;div&gt;graphs considering&lt;/div&gt;&lt;div&gt;predicted Vmag, Vang&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry y="1030" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xKvRT-cBqtyTfY7rPIqp-90" target="xKvRT-cBqtyTfY7rPIqp-92">
