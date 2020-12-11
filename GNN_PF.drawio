@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T16:09:13.105Z" agent="5.0 (X11)" etag="yGW55jeXmsRw61VgPPNS" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T16:17:06.524Z" agent="5.0 (X11)" etag="K9fJki30OUxm1LwVhltR" version="14.0.1" type="github">
   <diagram id="NX9X9Dx4tGmhcnGqsxjO" name="Page-1">
     <mxGraphModel dx="1221" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-30" value="Get Minibatch&#xa;(function)&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="140" width="250" height="352" as="geometry" />
         </mxCell>
-        <mxCell id="xKvRT-cBqtyTfY7rPIqp-31" value="Inputs: Gens/Lines/Buses lists, &#xa;n_data, n_batch: num of samples &#xa;in batch, sigma_inj: noise coeff.&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-30">
+        <mxCell id="xKvRT-cBqtyTfY7rPIqp-31" value="Inputs: Gens/Lines/Buses lists, n_data,&#xa; n_batch: num of samples in batch,&#xa; sigma_inj: noise coeff.&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-30">
           <mxGeometry y="46" width="250" height="54" as="geometry" />
         </mxCell>
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-30">
@@ -114,9 +114,6 @@
             <mxPoint x="240" y="610" as="sourcePoint" />
             <mxPoint x="400" y="610" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="xKvRT-cBqtyTfY7rPIqp-55" value="0..n" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=top;" connectable="0" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-54">
-          <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-56" value="1" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=top;" connectable="0" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-54">
           <mxGeometry x="1" relative="1" as="geometry" />
