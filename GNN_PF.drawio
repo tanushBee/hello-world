@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-11T12:33:37.020Z" agent="5.0 (X11)" etag="PzA2pSy6r01yu2Lc_FJa" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-11T12:35:43.792Z" agent="5.0 (X11)" etag="cocr3ax0OnGZkuCkwz-c" version="14.0.1" type="github">
   <diagram id="NX9X9Dx4tGmhcnGqsxjO" name="Page-1">
-    <mxGraphModel dx="2076" dy="1230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -50,16 +50,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-30" value="Get Minibatch&#xa;(function)&#xa;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="140" width="240" height="340" as="geometry" />
+          <mxGeometry x="530" y="140" width="240" height="352" as="geometry" />
         </mxCell>
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-31" value="Inputs: Gens/Lines/Buses lists, &#xa;n_data, n_batch: num of samples &#xa;in batch, sigma_inj: noise coeff.&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-30">
           <mxGeometry y="46" width="240" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="xKvRT-cBqtyTfY7rPIqp-33" value="* Choose n_batch random indices &#xa;from Buses Pd/Qd and Gens Pg/Vg&#xa;arrays and add noise to obtain:&#xa;Bus: Pd/Qd, shape: [n_batch, n_nodes].&#xa;Gen: Pg/Vg, shape: [n_batch, n_gens].&#xa;&#xa;* Add noise to Lines R/X/B to obtain:&#xa;Lines: R/X/B, shape: [n_batch, n_lines].&#xa;&#xa;* Other data is simply duplicated  &#xa;n_batch times, to obtain:&#xa;Gen: bus, shape: [n_batch, n_gens].&#xa;Lines: from/to, shape: [n_batch, n_lines].&#xa;&#xa;*Data returned in lists: Gens, Lines, Buses.&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-30">
-          <mxGeometry y="100" width="240" height="232" as="geometry" />
-        </mxCell>
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-30">
-          <mxGeometry y="332" width="240" height="8" as="geometry" />
+          <mxGeometry y="100" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xKvRT-cBqtyTfY7rPIqp-45" value="* Choose n_batch random indices &#xa;from Buses Pd/Qd and Gens Pg/Vg&#xa;arrays and add noise to obtain:&#xa;Bus: Pd/Qd, shape: [n_batch, n_nodes].&#xa;Gen: Pg/Vg, shape: [n_batch, n_gens].&#xa;&#xa;* Add noise to Lines R/X/B to obtain:&#xa;Lines: R/X/B, shape: [n_batch, n_lines].&#xa;&#xa;* Other data is simply duplicated  &#xa;n_batch times, to obtain:&#xa;Gen: bus, shape: [n_batch, n_gens].&#xa;Lines: from/to, shape: [n_batch, n_lines].&#xa;&#xa;*Data returned in lists: Gens, Lines, Buses.&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-30">
+          <mxGeometry y="120" width="240" height="232" as="geometry" />
         </mxCell>
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-35" value="Lists of data arrays" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="320" y="160" width="140" height="102" as="geometry" />
@@ -73,10 +73,10 @@
         <mxCell id="xKvRT-cBqtyTfY7rPIqp-38" value="Buses: Pd, Qd" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="xKvRT-cBqtyTfY7rPIqp-35">
           <mxGeometry y="76" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="xKvRT-cBqtyTfY7rPIqp-41" value="Inputs" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=1.007;exitY=-0.167;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.017;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xKvRT-cBqtyTfY7rPIqp-36" target="xKvRT-cBqtyTfY7rPIqp-33">
+        <mxCell id="xKvRT-cBqtyTfY7rPIqp-41" value="Inputs" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;exitX=1.007;exitY=-0.167;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.017;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xKvRT-cBqtyTfY7rPIqp-36">
           <mxGeometry x="0.034" relative="1" as="geometry">
             <mxPoint x="330" y="320" as="sourcePoint" />
-            <mxPoint x="490" y="320" as="targetPoint" />
+            <mxPoint x="525.9199999999998" y="319.11199999999985" as="targetPoint" />
             <Array as="points">
               <mxPoint x="500" y="208" />
               <mxPoint x="500" y="319" />
